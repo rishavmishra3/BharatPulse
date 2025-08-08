@@ -1,0 +1,46 @@
+name: bharatpulse
+description: A voice-first multilingual survey application
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  record: ^5.2.1
+  audioplayers: ^5.2.1
+  camera: ^0.10.6
+  image_picker: ^1.1.2
+  http: ^1.4.0
+  dio: ^5.8.0+1
+  sqflite: ^2.4.2
+  shared_preferences: ^2.5.3
+  path_provider: ^2.1.5
+  permission_handler: ^11.4.0
+  geolocator: ^10.1.1
+  connectivity_plus: ^5.0.2
+  provider: ^6.1.5
+  csv: ^5.1.1
+  json_annotation: ^4.9.0
+  intl: ^0.18.1
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/icons/
+  
+  # FONTS SECTION COMPLETELY REMOVED TO PREVENT ERRORS
